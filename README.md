@@ -30,6 +30,16 @@ Suggested logs include a timestamp, request ID, and stack trace.
 3. Enter your student ID when prompted.
 4. Read the displayed result.
 
+## How to Verify
+Run the student ID validation cell and try:
+- 123456: displays a success message.
+- 12345: displays a length error.
+- abcdef: displays a numbers-only error.
+
+## How to Contribute
+1. Create a new branch for your changes.
+2. Update the notebook and check that it runs.
+3. Open a pull request for the team to review.
 ## Limitations
 Database saving, deadline checking, logging, and retry handling are discussed but are not implemented in the revised function. Its success message confirms validation only, not an actual saved submission.
 
